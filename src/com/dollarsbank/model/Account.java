@@ -15,6 +15,10 @@ public class Account {
 		ColorUtility.printYellow("Your account ID is: " + acctId + ". Keep it secret, keep it safe.");
 	}
 
+	public Account() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getAcctId() {
 		return acctId;
 	}

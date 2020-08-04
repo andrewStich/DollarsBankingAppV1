@@ -15,6 +15,9 @@ public class User {
 		this.acct = acct;
 	}
 
+	public User() {
+	}
+
 	public String getName() {
 		return name;
 	}
